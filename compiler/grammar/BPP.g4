@@ -34,7 +34,7 @@ grammar BPP;
 
 options
 {
-    language=CSharp;
+    language=CSharp_v4_5;
 }
 
 
