@@ -62,5 +62,6 @@
   <ItemGroup>
     <None Include="src\grammar\BPPLexer.tokens" />
     <None Include="packages.config" />
+    <None Include="grammar\BPP.g4" />
   </ItemGroup>
 </Project>
