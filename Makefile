@@ -1,6 +1,6 @@
 VERSION=Debug
 
-COMPILER_TEST_RESULTS=TestResults/$(VERSION)/compiler-test.xml
+COMPILER_TEST_RESULTS=TestResults/$(VERSION)/CompilerTests.xml
 
 .PHONY: bplusplus
 .PHONY: debug
@@ -23,10 +23,10 @@ bplusplus:
 
 $(COMPILER_TEST_RESULTS): bplusplus
 	mkdir -p $(dir $@)
-	nunit-console -xml:$@ compiler-tests/bin/$(VERSION)/compiler-tests.dll
+	nunit-console -xml:$@ CompilerTests/bin/$(VERSION)/CompilerTests.dll
 
 clean:
 	mdtool build --target:Clean --configuration:"Debug|x86" bplusplus.sln
 	mdtool build --target:Clean --configuration:"Release|x86" bplusplus.sln
-	rm -rf compiler/bin packages TestResults
+	rm -rf Compiler/bin CompilerTests/bin packages TestResults
 	find -name "*~" -delete

@@ -5,8 +5,8 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProjectGuid>{9E293D46-2A3D-4FC5-B70D-F3BCDCB61307}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>compiler</RootNamespace>
-    <AssemblyName>compiler</AssemblyName>
+    <RootNamespace>Compiler</RootNamespace>
+    <AssemblyName>Compiler</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">

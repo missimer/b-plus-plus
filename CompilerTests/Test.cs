@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
 using System;
 
-namespace compilertests
+namespace CompilerTests
 {
 	[TestFixture ()]
 	public class Test
