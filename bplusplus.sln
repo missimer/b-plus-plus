@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compiler", "Compiler\Compiler.csproj", "{9E293D46-2A3D-4FC5-B70D-F3BCDCB61307}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompilerTests", "CompilerTests\CompilerTests.csproj", "{2E5B0A6B-79D4-4D1D-BA31-028E3D93FB59}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compiler.Lib", "Compiler.Lib\Compiler.Lib.csproj", "{1B95CD15-258C-424F-BA54-CD81D4055B67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compiler.Tests", "Compiler.Tests\Compiler.Tests.csproj", "{ADC0F3B3-7AA4-4139-A74F-C7459763C52A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +13,58 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2E5B0A6B-79D4-4D1D-BA31-028E3D93FB59}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{2E5B0A6B-79D4-4D1D-BA31-028E3D93FB59}.Debug|x86.Build.0 = Debug|Any CPU
-		{2E5B0A6B-79D4-4D1D-BA31-028E3D93FB59}.Release|x86.ActiveCfg = Release|Any CPU
-		{2E5B0A6B-79D4-4D1D-BA31-028E3D93FB59}.Release|x86.Build.0 = Release|Any CPU
+		{1B95CD15-258C-424F-BA54-CD81D4055B67}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1B95CD15-258C-424F-BA54-CD81D4055B67}.Debug|x86.Build.0 = Debug|Any CPU
+		{1B95CD15-258C-424F-BA54-CD81D4055B67}.Release|x86.ActiveCfg = Release|Any CPU
+		{1B95CD15-258C-424F-BA54-CD81D4055B67}.Release|x86.Build.0 = Release|Any CPU
 		{9E293D46-2A3D-4FC5-B70D-F3BCDCB61307}.Debug|x86.ActiveCfg = Debug|x86
 		{9E293D46-2A3D-4FC5-B70D-F3BCDCB61307}.Debug|x86.Build.0 = Debug|x86
 		{9E293D46-2A3D-4FC5-B70D-F3BCDCB61307}.Release|x86.ActiveCfg = Release|x86
 		{9E293D46-2A3D-4FC5-B70D-F3BCDCB61307}.Release|x86.Build.0 = Release|x86
+		{ADC0F3B3-7AA4-4139-A74F-C7459763C52A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{ADC0F3B3-7AA4-4139-A74F-C7459763C52A}.Debug|x86.Build.0 = Debug|Any CPU
+		{ADC0F3B3-7AA4-4139-A74F-C7459763C52A}.Release|x86.ActiveCfg = Release|Any CPU
+		{ADC0F3B3-7AA4-4139-A74F-C7459763C52A}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.FileWidth = 120
+		$1.TabWidth = 2
+		$1.IndentWidth = 2
+		$1.inheritsSet = VisualStudio
+		$1.inheritsScope = text/plain
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.ElseNewLinePlacement = NewLine
+		$2.CatchNewLinePlacement = NewLine
+		$2.FinallyNewLinePlacement = NewLine
+		$2.EmbeddedStatementPlacement = DoNotCare
+		$2.BeforeMethodDeclarationParentheses = False
+		$2.BeforeMethodCallParentheses = False
+		$2.BeforeConstructorDeclarationParentheses = False
+		$2.BeforeIndexerDeclarationBracket = False
+		$2.BeforeDelegateDeclarationParentheses = False
+		$2.AfterDelegateDeclarationParameterComma = True
+		$2.NewParentheses = False
+		$2.IfParentheses = False
+		$2.WhileParentheses = False
+		$2.ForParentheses = False
+		$2.ForeachParentheses = False
+		$2.CatchParentheses = False
+		$2.SwitchParentheses = False
+		$2.LockParentheses = False
+		$2.UsingParentheses = False
+		$2.SpacesBeforeBrackets = False
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+		$0.DotNetNamingPolicy = $3
+		$3.DirectoryNamespaceAssociation = None
+		$3.ResourceNamePolicy = FileFormatDefault
+		$0.StandardHeader = $4
+		$4.Text = 
+		$4.IncludeInNewFiles = True
+		version = 0.0.0
 	EndGlobalSection
 EndGlobal

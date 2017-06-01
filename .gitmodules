@@ -1,0 +1,3 @@
+[submodule "SharpCover"]
+	path = SharpCover
+	url = https://github.com/gaillard/SharpCover.git

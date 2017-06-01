@@ -1,0 +1,3 @@
+{
+    "assemblies": ["Compiler.Tests/bin/Release/Compiler.Lib.dll"]
+}
